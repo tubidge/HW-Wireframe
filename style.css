@@ -1,0 +1,59 @@
+body {
+    background-color: grey;
+    font-family: sans-serif; 
+    color: grey;
+    /*margin:*/
+    margin-left: 15%;
+    margin-right: 15%;
+    /*padding*/
+}
+
+header,
+nav,
+section,
+article,
+h1,
+h2,
+h3,
+p,
+aside,
+footer {
+    background-color: azure;
+    text-align: center;
+
+}
+
+.headings {
+    font-size: 20px;
+}
+
+header,
+nav,
+footer {
+    padding: 20px;
+    margin: 8px;
+    
+}
+
+section {
+    float: left;
+    padding: 20px;
+    margin: 16px;
+    width: 40%;
+    height: 300px;
+    
+}
+
+aside {
+    float: right;
+    padding: 20px;
+    margin: 16px;
+    width: 30%;
+    height: 300px;
+    
+}
+
+footer {
+    padding: 20px;
+    margin: 16px;
+}
