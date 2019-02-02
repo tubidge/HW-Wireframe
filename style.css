@@ -1,59 +1,79 @@
 body {
-    background-color: grey;
-    font-family: sans-serif; 
-    color: grey;
-    /*margin:*/
-    margin-left: 15%;
-    margin-right: 15%;
-    /*padding*/
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    /*margin-left: 15%;*/
+    /*margin-right: 15%;*/
 }
 
 header,
 nav,
 section,
-article,
-h1,
-h2,
-h3,
-p,
 aside,
 footer {
-    background-color: azure;
-    text-align: center;
-
-}
-
-.headings {
-    font-size: 20px;
+    background: #ebebeb;
 }
 
 header,
 nav,
 footer {
-    padding: 20px;
+    padding: 30px;
     margin: 8px;
     
 }
 
 section {
     float: left;
-    padding: 20px;
-    margin: 16px;
-    width: 40%;
-    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 500px;
+    height: 250px;
     
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+h1,
+p {
+    font-size: 20px;
+    color: #777;
+    background: #ebebeb;
+    padding: 20px;
+    margin: 10px;
 }
 
 aside {
     float: right;
-    padding: 20px;
-    margin: 16px;
-    width: 30%;
-    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 400px;
+    height: 250px;
     
 }
 
 footer {
-    padding: 20px;
-    margin: 16px;
+    padding: 30px;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    clear: both;
 }
